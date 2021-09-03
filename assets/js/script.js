@@ -1,5 +1,39 @@
 // Assignment code here
 
+// Four random generator data types
+    
+    //lowercase
+    function generateLowerCase() {
+      const lowerAlphabet = "abcdefghijklmnopqrstuvwxyz"
+    
+      return lowerAlphabet[Math.floor(Math.random() * lowerAlphabet.length)];
+      console.log(generateLowerCase())
+    }
+    
+        //uppercase
+    function generateUpperCase() {
+      const upperAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    
+      return upperAlphabet[Math.floor(Math.random() * upperAlphabet.length)];
+      console.log(generateUpperCase())
+    }
+    
+        //numbers
+    function generateNumber() {
+      const number = "0123456789"
+    
+      return number[Math.floor(Math.random() * number.length)];
+      console.log(generateNumber())
+    }
+    
+        //special character
+    function generateSpecialCharacter() {
+      const character = "!@#$%^&*()"
+    
+      return character[Math.floor(Math.random() * character.length)];
+      console.log(generateSpecialCharacter())
+    }
+
 
 
     
