@@ -81,13 +81,3 @@ return code;
 };
 
 //console.log(generatePassword)
-
-      
-
-
-
-
-      
-
-
-
