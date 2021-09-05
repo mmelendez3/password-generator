@@ -1,7 +1,5 @@
 // Assignment code here
 
-  var length;
-  var code ="";
   const key_strings = {
   lowercase: 'abcdefghijklmnopqrstuvwxyz',
   uppercase: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
@@ -56,12 +54,23 @@ var symbols = confirm("Would you like to use special characters?");
 
 while (!upperCase && !lowerCase && !numbers && !symbols) {
   alert("You must select at least one password variable!");
-  /*upperCase = confirm("Would you like to use uppercase letters?");
+  upperCase = confirm("Would you like to use uppercase letters?");
+  if (upperCase) {
+    passwordCharSet += key_strings.uppercase;
+  };
   lowerCase = confirm("Would you like to use lowercase letters?");
+  if (lowerCase) {
+    passwordCharSet += key_strings.lowercase;
+    }
   numbers = confirm("Would you like to use numbers?");
-  symbols = confirm("Would you like to use special characters?");*/
+  if (numbers) {
+    passwordCharSet += key_strings.numbers;
+    }
+  symbols = confirm("Would you like to use special characters?");
+  if (symbols) {
+    passwordCharSet += key_strings.symbols;
+    }
 
-  return writePassword();
 }
 
 var code = "";
