@@ -22,4 +22,4 @@
 
     7. Here is a screenshot of the finished website.
 
-        -![](./assets/images/pwscreenshot.png"Password Generator")
+        - ![](./assets/images/pwscreenshot.png "Password Generator")
