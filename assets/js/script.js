@@ -73,11 +73,11 @@ while (!upperCase && !lowerCase && !numbers && !symbols) {
 
 }
 
-var code = "";
+var password = "";
 for (let i = 0; i < length; i++) {
-code += passwordCharSet[Math.floor(Math.random() * passwordCharSet.length)]
+password += passwordCharSet[Math.floor(Math.random() * passwordCharSet.length)]
 }
-return code;
+return password;
 };
 
-//console.log(generatePassword)
+//console.log(generatePassword());
